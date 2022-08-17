@@ -1,0 +1,44 @@
+
+/* 
+3 parts to a media query
+
+1: @media
+2: parens where you write the rule that must be met so that styles can be applied
+3: goes inside curly brackets: the styles that we want to be applied
+*/
+
+/* breakpoint: the number of pixels to where a rule is applied so we can apply the styles given */
+h1 {
+    color: red;
+}
+
+button {
+    display: none;
+}
+/* @media (min-width: 768px){
+    h1 {
+        color: blue;
+        background: black;
+        border: 2px solid wheat;
+    }
+}
+
+@media (min-width: 1068px){
+    h2 {
+        display: none;
+    }
+} */
+
+
+@media (max-width: 768px){
+    h2 {
+        display: none;
+    }
+
+    button {
+        display: block;
+    }
+}
+
+
+
